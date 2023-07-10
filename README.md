@@ -1,4 +1,4 @@
-### Link - https://bitcot-assignment-tushar.netlify.app/login
+### Link - https://bitcot-assignment-tushar.netlify.app
 
 # Getting Started with Create React App
 
