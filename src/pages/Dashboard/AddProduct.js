@@ -66,11 +66,13 @@ function AddProduct() {
   const handleSubmit = (e) => {
     e.preventDefault();
     variationForm.forEach((form) => {
+      /* eslint-disable no-unused-vars */
       for (const [_, value] of Object.entries(form)) {
         if (value === "") {
           return alert("Please Fill all fields in variants");
         }
       }
+      /* eslint-enable no-unused-vars */
     });
     if (
       values.productName === "" ||
