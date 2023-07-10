@@ -10,7 +10,7 @@ function AddProduct() {
   const [activeTab, setActiveTab] = useState(true);
 
   const productDetails = products.filter((product) => {
-    return product.id == id;
+    return product.id === id;
   })[0];
 
   const initialProductObj = {
@@ -66,7 +66,7 @@ function AddProduct() {
   const handleSubmit = (e) => {
     e.preventDefault();
     variationForm.forEach((form) => {
-      for (const [key, value] of Object.entries(form)) {
+      for (const [_, value] of Object.entries(form)) {
         if (value === "") {
           return alert("Please Fill all fields in variants");
         }

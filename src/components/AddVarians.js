@@ -1,4 +1,3 @@
-import { useState } from "react";
 import AddProductFormRow from "./AddProductFormRow";
 import productPic from "../assets/images/thumbnails/picture.svg";
 

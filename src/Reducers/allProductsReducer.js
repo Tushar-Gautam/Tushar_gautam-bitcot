@@ -47,6 +47,8 @@ const reducer = (state, action) => {
       state.products.push(action.payload.payload);
       return state;
     }
+    default:
+      return;
   }
 };
 export default reducer;

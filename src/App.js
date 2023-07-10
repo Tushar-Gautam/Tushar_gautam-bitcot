@@ -1,11 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Error, Register, ProtectedRoute, Login, SignUp } from "./pages";
-import {
-  AddProduct,
-  EditProduct,
-  ProductList,
-  SharedLayout,
-} from "./pages/Dashboard";
+import { Error, ProtectedRoute, Login, SignUp } from "./pages";
+import { AddProduct, ProductList, SharedLayout } from "./pages/Dashboard";
 import "./App.css";
 
 function App() {

@@ -1,5 +1,3 @@
-import React from "react";
-
 function Footer() {
   return (
     <>
@@ -8,8 +6,8 @@ function Footer() {
           Copyright 2023 bitcot All rights reserved.
         </div>
         <div className="footer-links-wrapper">
-          <a>Terms &amp; Conditions </a> <span className="mx-2">|</span>
-          <a>Privacy Policy </a>
+          <span>Terms &amp; Conditions </span> <span className="mx-2">|</span>
+          <span>Privacy Policy </span>
         </div>
       </footer>
     </>
